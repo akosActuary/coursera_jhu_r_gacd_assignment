@@ -22,7 +22,9 @@ The following table lists the files in my repository and give a high level descr
 | README.html | README.md rendered to html |
 | run_analysis.R | Script of the analysis |
 | tidyData.txt | The final tidy data set |
-| CodeBook.Rmd | CodeBook of the data |
+| CodeBook.md | CodeBook of the data in Markdown |
+| CodeBook.Rmd | CodeBook of the data in R Markdown|
+| CodeBook.html | CodeBook of the data in html code|
 ---
 
 # Project description 
