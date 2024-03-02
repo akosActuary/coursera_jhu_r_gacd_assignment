@@ -1,9 +1,6 @@
----
-title: "Code Book"
-subtitle: "Coursera | Data Science: Foundations using R Specialization | Getting and Cleaning Data Course Project"
-author: "Akos Arendas"
-date: "2024-03-02"
-output: html_document
+Code Book
+====
+***Coursera | Data Science: Foundations using R Specialization | Getting and Cleaning Data Course Project"***
 ---
 
 # Summary
@@ -110,4 +107,4 @@ Finally, the data is factored along the acitivites and subject variables. Eventu
   - The third argument `mean` specifies the aggregation function to use when there are multiple values for a combination of the variables specified in the formula. In this case, mean will calculate the `mean` value for each combination of `subjectID`, `Activity`, and `variable.`
   - This code chunk will produce a new data table `fullData_dt` where the variables that were previously melted down will now be spread out as columns, with the mean values calculated for each combination of `subjectID`, `Activity`, and `variable`.
   
-The final results are produced with `fwrite` function and creates the tidy result in file `tidyData.txt`.
+The final results are produced with `write.table` function and creates the tidy result in file `tidyData.txt`.
