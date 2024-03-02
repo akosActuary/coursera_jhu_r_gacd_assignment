@@ -131,4 +131,4 @@ fullData_dt <- dcast(fullData_dt, subjectID + Activity ~ variable, mean)
 
 
 #   Final result ----
-fwrite(fullData_dt, file = "tidyData.txt")
+write.table(fullData_dt, file = "tidyData.txt", row.name = FALSE)
