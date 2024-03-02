@@ -1,6 +1,7 @@
 #   Getting and Cleaning Data Course Project
 #   UCLA, Courserat
 
+#   Loading packages ----
 library(tidyverse)
 library(readxl)
 library(readr)
